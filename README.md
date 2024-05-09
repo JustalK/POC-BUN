@@ -45,4 +45,7 @@ bun --hot run index.ts
 - **Experience_0006**: ???
 - **Experience_0007**: Environment variable without dotenv
 - **Experience_0008**: Dynamic path
-- **Experience_0009**: Error
+- **Experience_0009**: Error Handling and response control (status)
+- **Experience_0010**: Global Store
+- **Experience_0011**: Adding information to context
+- **Experience_0012**: Hook & Middleware (that's AWESOME!)
