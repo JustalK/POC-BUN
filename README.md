@@ -52,3 +52,4 @@ bun --hot run index.ts
 - **Experience_0013**: Trace for checking bottleneck
 - **Experience_0014**: Handle cookie
 - **Experience_0015**: Documentation with Swagger
+- **Experience_0016**: Writting test from bun:test
