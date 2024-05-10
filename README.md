@@ -49,3 +49,6 @@ bun --hot run index.ts
 - **Experience_0010**: Global Store
 - **Experience_0011**: Adding information to context
 - **Experience_0012**: Hook & Middleware (that's AWESOME!)
+- **Experience_0013**: Trace for checking bottleneck
+- **Experience_0014**: Handle cookie
+- **Experience_0015**: Documentation with Swagger
