@@ -6,8 +6,9 @@ import { Glob } from "bun";
  * Add all the experience - lazy loading
  */
 export const loadStatic = async (app: Elysia) => {
-  const glob = new Glob("src/experiences/**/index.ts");
+  const glob = new Glob("src/experiences/**/index.{ts,tsx}");
   for (const file of glob.scanSync({ cwd: ".", absolute: true })) {
+    console.log(file);
     app.use(import(file));
   }
 

@@ -3,11 +3,11 @@ import { Elysia } from "elysia";
 const dirname = import.meta.dirname;
 const folder = dirname.split("/").pop();
 
-export const experience_0001 = new Elysia({
+export const experience = new Elysia({
   name: folder,
   prefix: `/${folder}`,
 })
   .get("/", () => ({ method: "GET" }))
   .post("/", () => ({ method: "POST" }));
 
-export default experience_0001;
+export default experience;

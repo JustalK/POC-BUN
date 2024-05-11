@@ -1,5 +1,9 @@
 # poc-server
 
+This project is a poc of Bun and Elysia. I have been working a lot with many different technologies and I wanted to try this one I heard about. And, I am really impressed. In my past experience, I work with `Express.js` and I found it good but unfortunately, nobody tried to take over the project and improve it. Then I move to Restify and Fastify, they are good project but once again, those project did not really improved over time. They ended up to be a copy of Express. Over the time, I discovered Hapi, Koa and finally Nest.js. I really love Nest.js, it's really well structured kind of what you will find with an Angular project. But this is also, it's weakness. When I want to create a small project, it feel like I am taking a jackhammer to kill a fly.
+
+And recently, I discovered Bun. I started to play with it and I ended up on something I was looking for a while. An efficient HTTP server but at the same time easy to use and composed of many tool or helper. I found `ElysiaJs`.
+
 #### BUN
 
 ###### Command
@@ -53,3 +57,5 @@ bun --hot run index.ts
 - **Experience_0014**: Handle cookie
 - **Experience_0015**: Documentation with Swagger
 - **Experience_0016**: Writting test from bun:test
+- **Experience_0017**: Macro
+- **Experience_0018**: Playing with cron
