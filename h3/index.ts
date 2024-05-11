@@ -7,10 +7,6 @@ export const app = createApp({
   debug: true,
 });
 
-// Create a new router and register it in app
-const router = createRouter();
-app.use(router);
-
 const getDirectories = (source) =>
   readdirSync(source, { withFileTypes: true })
     .filter((dirent) => dirent.isDirectory())

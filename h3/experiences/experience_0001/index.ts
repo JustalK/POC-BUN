@@ -1,4 +1,4 @@
-import { createApp, createRouter, defineEventHandler } from "h3";
+import { createRouter, defineEventHandler } from "h3";
 
 const router = createRouter()
   .get(
