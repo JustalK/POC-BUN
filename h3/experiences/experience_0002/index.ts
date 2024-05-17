@@ -7,6 +7,7 @@ import {
   readFormData,
   readBody,
   getQuery,
+  sendRedirect,
 } from "h3";
 
 const router = createRouter()
@@ -54,6 +55,12 @@ const router = createRouter()
       const formData = await readFormData(event);
       const username = formData.get("username");
       return { username };
+    })
+  )
+  .get(
+    "/redirect",
+    defineEventHandler((event) => {
+      return sendRedirect(event, "http://localhost:3000/experience_0001", 301);
     })
   );
 export default router.handler;
