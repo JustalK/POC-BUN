@@ -1,4 +1,7 @@
 //https://nitro.unjs.io/config
 export default defineNitroConfig({
-  srcDir: "server"
+  routeRules: {
+    "/experience_0002/redirect": { redirect: "/experience_0001" },
+  },
+  srcDir: "server",
 });
