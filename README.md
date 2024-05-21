@@ -65,6 +65,8 @@ bun --hot run index.ts
 
 I did not push to far on this one, this is mostly like a node/express server.
 
+###### Experiences
+
 - **Experience_0001**: Separating by method
 - **Experience_0002**: Redirect and get data from request
 - **Experience_0003**: Get a token jwt token from header and read it
@@ -83,4 +85,44 @@ I did not push to far on this one, this is mostly like a node/express server.
 - **Experience_0016**: Writting test using adapter Web
 - **Experience_0017**: **No macro (such as Elysia)**
 - **Experience_0018**: **No cron (such as Elysia)**
+
+#### Nitro
+
+To install:
+
+```bash
+$ npx giget@latest nitro nitro-app --install
+```
+
+###### Experiences
+
+- **Experience_0001**: Separating by methods using file
+- **Experience_0002**: Separating by methods, dynamic path and redirect (in nitro.config.ts for the redirect)
+- **Experience_0003**: Get a token jwt token from header and read it (work like in h3)
+- **Experience_0004**: Fetch a post endpoint (see api and route too)
+- **Experience_0005**: Read a file and write to a file (see nitro config for upload directory registration)
+-> Very interesting to have a typing system on the fetch and $fetch (for api)
+- **Experience_0006**: Run nitro in a bun server
+-> Simply build and use the following command
+
+```bash
+$ bun run ./.output/server/index.mjs
+```
+
+- **Experience_0007**: Environment variable (see nitro.config.ts)
+-> Create a .env to override the nitro.config.ts (good for environment difference like production)
+- **Experience_0008**: Dynamic-path -> Already seen in Experience_0002
+- **Experience_0009**: Error handling (work the same as h3)
+- **Experience_0010**: Store in memory and in file (see .data/kv/counter after using api)
+-> Can be config through nitro.config.ts
+- **Experience_0011**: Add information to context (see the middleware folder in server)
+- **Experience_0012**: Hook & Middleware (see the middleware folder in  server)
+-> Prefix with number to decide the order
+-> Path filtering to apply specific middleware or hook (not good)
+- **Experience_0013**: **No trace helper (such as Elysia)**
+- **Experience_0014**: Handle cookie (work like in h3)
+- **Experience_0015**: Integration with Swagger (Work only with nightly channel - see experience_0015 in api folder)
+- **Experience_0018**: Cron (see nitro config for registration of task and see folder tasks)
+- **Experience_0019**: Cache API with stale, cache function, reset...
+
 
