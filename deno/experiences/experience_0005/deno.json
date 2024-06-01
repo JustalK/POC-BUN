@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-env --allow-read main.tsx"
+  },
+  "imports": {
+    "preact/": "https://esm.sh/preact/"
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "https://esm.sh/preact"
+  }
+}
