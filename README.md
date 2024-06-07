@@ -125,4 +125,26 @@ $ bun run ./.output/server/index.mjs
 - **Experience_0018**: Cron (see nitro config for registration of task and see folder tasks)
 - **Experience_0019**: Cache API with stale, cache function, reset...
 
+#### Deno
 
+In order to run a task from `deno.json`
+
+```bash
+$ deno run dev
+```
+
+###### Experiences
+
+- **Experience_0001**: Creating a server as simple as possible
+- **Experience_0002**: Typescript, import, first-step with Deno
+- **Experience_0003**: Import
+- **Experience_0004**: Environment variable
+- **Experience_0005**: JSX
+- **Experience_0006**: Fresh framework
+
+
+#### Deno Fresh / Hono
+
+## Link
+
+- [Comparison Node vs Bun vs Deno](https://kinsta.com/fr/blog/deno-js/#:~:text=Deno%20vs%20Bun,-Jarred%20Sumner%2C%20ancien&text=Bun%20est%20un%20runtime%20plus,js%20et%20Deno.)
